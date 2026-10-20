@@ -1,0 +1,10 @@
+node_modules/
+.expo/
+dist/
+android/
+ios/
+*.gguf
+*.part
+npm-debug.*
+yarn-error.*
+.env*

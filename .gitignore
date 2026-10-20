@@ -1,0 +1,16 @@
+# 依存パッケージ・ビルドの生成物
+node_modules/
+.expo/
+mobile/android/
+mobile/ios/
+dist/
+*.apk
+*.aab
+
+# AIのモデル（数GBあるので入れない）
+*.gguf
+*.part
+
+# 受け渡し用の zip・秘密の設定
+*.zip
+.env*

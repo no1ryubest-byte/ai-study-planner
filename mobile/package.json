@@ -1,0 +1,31 @@
+{
+  "name": "ai-study-planner-app",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.ts",
+  "scripts": {
+    "setup": "npx expo install react react-native react-native-webview react-native-safe-area-context expo-dev-client expo-file-system expo-device expo-status-bar expo-build-properties && npx expo install typescript @types/react -- --save-dev",
+    "web:build": "node ../build.js ../dist/ai-study-planner.html",
+    "start": "expo start --dev-client",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "typecheck": "tsc --noEmit",
+    "test": "node --experimental-strip-types test/request.test.ts",
+    "postinstall": "node ./node_modules/llama.rn/install/download-native-artifacts.js"
+  },
+  "dependencies": {
+    "@types/react": "~19.2.4",
+    "expo": "~57.0.0",
+    "expo-build-properties": "~57.0.22",
+    "expo-dev-client": "~57.0.20",
+    "expo-device": "~57.0.2",
+    "expo-file-system": "~57.0.7",
+    "expo-status-bar": "~57.0.1",
+    "llama.rn": "^0.12.7",
+    "react": "19.2.3",
+    "react-native": "0.86.3",
+    "react-native-safe-area-context": "~5.7.0",
+    "react-native-webview": "13.16.1",
+    "typescript": "~6.0.3"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "expo": {
+    "name": "AI学習プランナー",
+    "slug": "ai-study-planner",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "backgroundColor": "#F1F5F6",
+    "ios": {
+      "bundleIdentifier": "com.example.aistudyplanner",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "答案や教科書の目次を撮影して、端末の中のAIで読み取るために使います。写真は外へ送りません。",
+        "NSPhotoLibraryUsageDescription": "保存した答案や目次の写真を選ぶために使います。写真は外へ送りません。",
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "com.example.aistudyplanner",
+      "permissions": [
+        "android.permission.CAMERA"
+      ],
+      "blockedPermissions": [
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "plugins": [
+      [
+        "llama.rn",
+        {
+          "enableEntitlements": true,
+          "entitlementsProfile": "production",
+          "forceCxx20": true,
+          "enableOpenCLAndHexagon": false
+        }
+      ],
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "deploymentTarget": "16.4"
+          },
+          "android": {
+            "minSdkVersion": 26
+          }
+        }
+      ],
+      "expo-status-bar"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "a3f44d4c-8691-4148-8e4d-439adba25f50"
+      }
+    },
+    "owner": "crime111"
+  }
+}
