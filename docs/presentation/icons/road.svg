@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+<defs>
+  <clipPath id="clip-f"><rect width="512" height="512" rx="112"/></clipPath>
+  <pattern id="grid-f" width="32" height="32" patternUnits="userSpaceOnUse">
+    <path d="M32 0H0V32" fill="none" stroke="#DCE7EB" stroke-width="2"/>
+  </pattern>
+</defs>
+<g clip-path="url(#clip-f)">
+<rect width="512" height="512" fill="#2350B5"/>
+
+<path d="M110 410 L190 400 L262 370 L300 312 L290 250 L300 192 L348 158" fill="none" stroke="#3B6CD0" stroke-width="34" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="110" cy="410" r="22" fill="#F1E46A"/><circle cx="190" cy="400" r="14" fill="#FFFFFF"/><circle cx="262" cy="370" r="14" fill="#FFFFFF"/><circle cx="300" cy="312" r="14" fill="#FFFFFF"/><circle cx="290" cy="250" r="14" fill="#FFFFFF"/><circle cx="300" cy="192" r="14" fill="#FFFFFF"/><circle cx="348" cy="158" r="14" fill="#FFFFFF"/>
+<rect x="362" y="70" width="14" height="128" rx="7" fill="#FFFFFF"/>
+<path d="M376 76 L446 104 L376 132 Z" fill="#D02F2B"/>
+
+</g>
+</svg>
