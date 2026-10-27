@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+<defs>
+  <clipPath id="clip-c"><rect width="512" height="512" rx="112"/></clipPath>
+  <pattern id="grid-c" width="32" height="32" patternUnits="userSpaceOnUse">
+    <path d="M32 0H0V32" fill="none" stroke="#DCE7EB" stroke-width="2"/>
+  </pattern>
+</defs>
+<g clip-path="url(#clip-c)">
+<rect width="512" height="512" fill="#F1F5F6"/><rect width="512" height="512" fill="url(#grid-c)"/>
+
+<rect x="76" y="296" width="72" height="72" rx="16" fill="#FFFFFF" stroke="#2350B5" stroke-width="8"/><rect x="172" y="296" width="72" height="72" rx="16" fill="#FFFFFF" stroke="#2350B5" stroke-width="8"/><rect x="268" y="296" width="72" height="72" rx="16" fill="#FFFFFF" stroke="#2350B5" stroke-width="8"/><rect x="364" y="296" width="72" height="72" rx="16" fill="#D02F2B" stroke="#D02F2B" stroke-width="8"/>
+<rect x="394" y="188" width="12" height="112" rx="6" fill="#1B2731"/>
+<path d="M406 192 L462 214 L406 236 Z" fill="#D02F2B"/>
+<path d="M372 262 C 340 150, 156 150, 120 258" fill="none" stroke="#2350B5" stroke-width="22" stroke-linecap="round"/>
+<path d="M90 228 L118 284 L154 234" fill="none" stroke="#2350B5" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+
+</g>
+</svg>

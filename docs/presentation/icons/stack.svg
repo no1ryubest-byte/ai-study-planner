@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+<defs>
+  <clipPath id="clip-d"><rect width="512" height="512" rx="112"/></clipPath>
+  <pattern id="grid-d" width="32" height="32" patternUnits="userSpaceOnUse">
+    <path d="M32 0H0V32" fill="none" stroke="#DCE7EB" stroke-width="2"/>
+  </pattern>
+</defs>
+<g clip-path="url(#clip-d)">
+<rect width="512" height="512" fill="#E3EAF9"/>
+
+<rect x="96" y="308" width="88" height="60" rx="12" fill="#CB7420"/><rect x="96" y="236" width="88" height="60" rx="12" fill="#CB7420"/><rect x="96" y="164" width="88" height="60" rx="12" fill="#CB7420"/><rect x="96" y="92" width="88" height="60" rx="12" fill="#CB7420"/>
+<rect x="212" y="308" width="88" height="60" rx="12" fill="#2B8F64"/><rect x="212" y="236" width="88" height="60" rx="12" fill="#2B8F64"/><rect x="212" y="164" width="88" height="60" rx="12" fill="#2B8F64"/>
+<rect x="328" y="308" width="88" height="60" rx="12" fill="#3B6CD0"/><rect x="328" y="236" width="88" height="60" rx="12" fill="#3B6CD0"/>
+<rect x="80" y="380" width="352" height="14" rx="7" fill="#1B2731"/>
+
+</g>
+</svg>

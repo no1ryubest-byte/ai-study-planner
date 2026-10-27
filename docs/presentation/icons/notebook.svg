@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+<defs>
+  <clipPath id="clip-e"><rect width="512" height="512" rx="112"/></clipPath>
+  <pattern id="grid-e" width="32" height="32" patternUnits="userSpaceOnUse">
+    <path d="M32 0H0V32" fill="none" stroke="#DCE7EB" stroke-width="2"/>
+  </pattern>
+</defs>
+<g clip-path="url(#clip-e)">
+<rect width="512" height="512" fill="#E3EAF9"/>
+
+<g transform="rotate(-6 256 256)">
+  <rect x="112" y="92" width="272" height="336" rx="20" fill="#FFFFFF"/>
+  <rect x="112" y="92" width="272" height="336" rx="20" fill="url(#grid-e)"/>
+  <rect x="152" y="204" width="168" height="28" rx="5" fill="#F1E46A"/>
+  <rect x="152" y="164" width="120" height="12" rx="6" fill="#1B2731"/>
+  <rect x="152" y="212" width="150" height="12" rx="6" fill="#1B2731"/>
+  <rect x="152" y="260" width="96" height="12" rx="6" fill="#1B2731"/>
+  <rect x="96" y="130" width="40" height="16" rx="8" fill="#1B2731"/><rect x="96" y="190" width="40" height="16" rx="8" fill="#1B2731"/><rect x="96" y="250" width="40" height="16" rx="8" fill="#1B2731"/><rect x="96" y="310" width="40" height="16" rx="8" fill="#1B2731"/><rect x="96" y="370" width="40" height="16" rx="8" fill="#1B2731"/>
+</g>
+<g transform="rotate(40 330 330)">
+  <rect x="304" y="150" width="52" height="236" rx="10" fill="#2350B5"/>
+  <rect x="304" y="150" width="52" height="44" rx="10" fill="#1B2731"/>
+  <path d="M304 386 L356 386 L330 442 Z" fill="#F3D9B1"/>
+  <path d="M320 420 L340 420 L330 442 Z" fill="#1B2731"/>
+</g>
+
+</g>
+</svg>
